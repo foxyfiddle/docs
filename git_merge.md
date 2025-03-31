@@ -16,7 +16,7 @@ git checkout main
 Change to the `main` branch using this command:
 
    ```bash
-   git checkout main
+   git pull origin main
    ```
 
 ### 3. Merge your current branch into `main`
