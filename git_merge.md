@@ -1,0 +1,13 @@
+# How to Merge a Branch into the Main Branch
+
+This guide explains how to merge your current branch into the `main` branch using Git.
+
+---
+
+## Steps to Merge a Branch into `main`
+
+### 1. Switch to the `main` Branch
+First, ensure you are on the `main` branch where you want to merge the changes.
+
+```bash
+git checkout main
