@@ -1,8 +1,0 @@
-# Initial Commit to Github
-
-## 1. Prerequisites
-- install Git:
-Make sure Git is installed. Open your terminal and type:
-```bash
-git --version
-```
