@@ -1,6 +1,6 @@
-## How to Update Dependencies
+# How to Update Dependencies
 
-# Step 1: Check Installed Dependencies
+## Step 1: Check Installed Dependencies
 ```bash
 npm outdated
 ```
@@ -12,7 +12,7 @@ It is built into npm so there are no additional packages required to download. `
 - Wanted is the max version of the package according the semver range.
 - Latest is the version of the package tagged as latest in the npm registry.
 
-# Step 2: Install Updates
+## Step 2: Install Updates
 Install updates for every package:
 ```bash
 npm update
@@ -20,7 +20,7 @@ npm update
 Keep in mind that with npm update it will never update to a major breaking-changes version. It updates the dependencies in package.json and package-lock.json. It will use the "wanted" version.
 To obtain the "latest" version append `@latest` to individual installs, for example npm install `react@latest`.
 
-# Optional: use npm-check-update
+## Optional: use npm-check-update
 
 For an advanced and customizable upgrading experience, use `npm-check-updates`. This package can do everything `npm outdated` and `npm upgrade` can do with some added customization options. It does require a package installation, however.
 To get started, install the npm-check-updates package globally:
